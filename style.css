@@ -1,0 +1,83 @@
+.parallax1 {
+    background-image: url("https://images5.alphacoders.com/564/564931.jpg");
+    min-height: 640px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax2 {
+    background-image: url("https://images5.alphacoders.com/542/542249.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax3 {
+    background-image: url("https://images8.alphacoders.com/411/411823.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+    border: solid 2px wheat;
+  }
+  #invi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: wheat;
+    font-family: 'Franklin Gothic Medium';
+    border: solid 2px gray;
+  }
+  #story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+  }
+  h2{
+    color: darkgrey;
+  }
+  #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px tan;
+    padding: 40px;
+    margin: 20px;
+  }
+  .foot{
+    display: flex;
+    background-color: tan;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
